@@ -1,0 +1,106 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Cabin Sketch", sans-serif;
+}
+
+.cabin-sketch-regular {
+	font-family: "Cabin Sketch", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.cabin-sketch-bold {
+	font-family: "Cabin Sketch", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+body {
+	display: block;
+	justify-content: center;
+	background-color: #fff88f;
+	padding-top: 100px;
+}
+
+footer {
+	display: block;
+  margin-top: 400px;
+	margin-left: 21px;
+}
+
+header {
+	font-family: "Cabin Sketch", sans-serif;
+  border-bottom: 2px solid #474747;
+}
+
+header h1 {
+	font-size: 40px;
+  font-weight: bold;
+}
+
+header h3 {
+	font-size: 16px;
+	font-weight: normal;
+}
+
+.container {
+	width: 90%;
+	max-width: 720px;
+	align-content: center;
+	justify-content: space-between;
+	margin: 0 auto;
+	padding: 24px 30px;
+	display: block;
+}
+
+#form-cadastrar {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	padding: 8px;
+}
+
+input {
+	font-size: 24px;
+	width: 40%;
+	max-width: 200px;
+	padding: 4px 3px;
+	outline-style: none;
+	border: none;
+	border-bottom: 1px dashed #474747;
+	margin-right: 20px;
+	justify-content: space-between;
+	height: 24px;
+	background-color: #fff88f;
+}
+
+button {
+	border: 1px dashed #474747;
+	padding: 2px 8px;
+	font-size: 20px;
+	font-weight: bold;
+	background-color: #91edff;
+	color: #000;
+	cursor: pointer;
+}
+
+table {
+	justify-content: space-between;
+	width: 100%;
+	max-width: 620px;
+	align-content: center;
+	text-align: center;
+}
+
+table th {
+	font-size: 24px;
+	padding-bottom: 1px;
+	border-bottom: 1.5px dashed #474747;
+}
+
+table td {
+  padding: 5px;
+	font-size: 20px;
+	border-bottom: 1px dashed #757575;
+}
